@@ -1,0 +1,35 @@
+.song-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    overflow: scroll;
+    transition: all 1s linear;
+}
+
+
+h2{
+    padding: 1vw;
+    text-align: center;
+}
+.song-list-item{
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 2vh;
+    align-items: center;
+}
+
+img{
+    width: 30%;
+}
+
+*{
+  scrollbar-color: rgba(155,155,155, 0.5) transparent;
+    scrollbar-width: thin;
+}
+
+.displayList{
+    transform: translateX(-30vw);
+}
